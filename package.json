@@ -1,29 +1,31 @@
 {
-	"name": "@sandersgutierrez/platzom",
-	"version": "0.1.0",
-	"description": "Traductor de idioma platzom",
-	"main": "dist/src/platzom.js",
-	"scripts": {
-		"build": "babel src/platzom.js -d dist",
-		"test": "mocha"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/sandersgutierrez-platzi/platzom.git"
-	},
-	"keywords": [
+    "name": "@sandersgutierrez/platzom",
+    "version": "0.1.1",
+    "description": "Traductor de idioma platzom",
+    "main": "dist/src/platzom.js",
+    "scripts": {
+        "build": "npx babel src/platzom.js -d dist",
+        "test": "mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sandersgutierrez-platzi/platzom.git"
+    },
+    "keywords": [
         "platzom",
         "platzi",
         "fundamentos",
         "javascript",
         "js"
     ],
-	"author": "Sanders Gutiérrez <ing.sanders@gmail.com> (https://sandersgutierrez.github.io)",
-	"license": "MIT",
-	"devDependencies": {
-		"babel-cli": "^6.26.0",
-		"babel-preset-env": "^1.7.0",
-		"chai": "^4.1.2",
-		"mocha": "^5.2.0"
-	}
+    "author": "Sanders Gutiérrez <ing.sanders@gmail.com> (https://sandersgutierrez.github.io)",
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/cli": "^7.4.4",
+        "@babel/core": "^7.4.5",
+        "@babel/preset-env": "^7.4.5",
+        "babel-preset-env": "^1.7.0",
+        "chai": "^4.1.2",
+        "mocha": "^5.2.0"
+    }
 }
