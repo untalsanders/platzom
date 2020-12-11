@@ -19,13 +19,22 @@ npm install @sandersgutierrez/platzom
 ## Uso
 
 ```javascript
-const platzom = require('platzom')
+const platzom = require('@sandersgutierrez/platzom')
 
-platzom('Programar') // Program
-platzom('Zorro') // Zorrope
-platzom('Zarpar') // Zarppe
-platzom('Abecedario') // abece-dario
-platzom('sometemos') // sometemos
+platzom('Programar')
+// output: 'Program'
+
+platzom('Zorro')
+// output: 'Zorrope'
+
+platzom('Zarpar')
+// output: 'Zarppe'
+
+platzom('Abecedario')
+// output: 'abece-dario'
+
+platzom('sometemos')
+// output: 'sometemos'
 ```
 
 ## Créditos
