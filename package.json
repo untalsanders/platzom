@@ -1,6 +1,6 @@
 {
     "name": "@sandersgutierrez/platzom",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Traductor de idioma platzom",
     "main": "dist/index.js",
     "scripts": {
