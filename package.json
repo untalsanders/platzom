@@ -2,9 +2,9 @@
     "name": "@sandersgutierrez/platzom",
     "version": "0.1.3-beta.0",
     "description": "Traductor de idioma platzom",
-    "private": true,
+    "main": "dist/index.js",
     "scripts": {
-        "build": "babel src/platzom.js -d dist",
+        "build": "babel ./src -d dist",
         "test": "mocha"
     },
     "repository": {
@@ -26,5 +26,8 @@
         "@babel/preset-env": "^7.12.10",
         "chai": "^4.2.0",
         "mocha": "^8.2.1"
-    }
+    },
+    "files": [
+        "dist/*.js"
+    ]
 }
