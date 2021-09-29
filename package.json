@@ -21,11 +21,11 @@
     "author": "Sanders Gutiérrez <ing.sanders@gmail.com> (https://sandersgutierrez.github.io)",
     "license": "MIT",
     "devDependencies": {
-        "@babel/cli": "^7.12.10",
-        "@babel/core": "^7.12.10",
-        "@babel/preset-env": "^7.12.10",
-        "chai": "^4.2.0",
-        "mocha": "^8.2.1"
+        "@babel/cli": "^7.15.7",
+        "@babel/core": "^7.15.5",
+        "@babel/preset-env": "^7.15.6",
+        "chai": "^4.3.4",
+        "mocha": "^8.4.0"
     },
     "files": [
         "dist/*.js"
