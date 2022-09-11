@@ -22,4 +22,4 @@ jobs:
       - run: npm ci
       - run: npm test
       - name: Print Github Token
-        run: echo ${{ secret.GITHUB_TOKEN }}
+        run: echo ${{ secrets.GITHUB_TOKEN }}
