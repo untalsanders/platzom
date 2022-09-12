@@ -1,4 +1,4 @@
-name: Platzom CD
+name: CD
 
 on:
   release:

@@ -1,4 +1,4 @@
-name: Platzom CI
+name: CI
 
 on:
   push:
