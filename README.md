@@ -1,3 +1,6 @@
+[![CI](https://github.com/sandersgutierrez/platzom/actions/workflows/ci.yml/badge.svg)](https://github.com/sandersgutierrez/platzom/actions/workflows/ci.yml)
+[![CD](https://github.com/sandersgutierrez/platzom/actions/workflows/cd.yml/badge.svg)](https://github.com/sandersgutierrez/platzom/actions/workflows/cd.yml)
+
 # Platzom
 
 Platzom es un idioma inventado para el [Curso de Fundamentos de Javascript](https://platzi.com/js) de [Platzi](https://platzi.com), el mejor lugar de educación online.
