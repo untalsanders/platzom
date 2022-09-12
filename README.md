@@ -1,5 +1,7 @@
 [![CI](https://github.com/sandersgutierrez/platzom/actions/workflows/ci.yml/badge.svg)](https://github.com/sandersgutierrez/platzom/actions/workflows/ci.yml)
 [![CD](https://github.com/sandersgutierrez/platzom/actions/workflows/cd.yml/badge.svg)](https://github.com/sandersgutierrez/platzom/actions/workflows/cd.yml)
+![GitHub](https://img.shields.io/github/license/sandersgutierrez/platzom)
+![npm (scoped)](https://img.shields.io/npm/v/@sandersgutierrez/platzom?label=Package%20Version)
 
 # Platzom
 
