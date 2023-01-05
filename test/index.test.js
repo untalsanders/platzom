@@ -1,22 +1,19 @@
-const expect = require('chai').expect
-const platzom = require('../src')
+import platzom from '../src'
 
-describe('#platzom', () => {
-    it('Si la palabra termina con "ar", se le quitan esas dos letras', () => {
-        expect(platzom('Programar')).to.equal('Program')
-    })
+test('Si la palabra termina con "ar", se le quitan esas dos letras', () => {
+    expect(platzom('Programar')).toEqual('Program')
+})
 
-    it('Si la palabra inica con Z, se le añade "pe" al final', () => {
-        expect(platzom('Zorro')).to.equal('Zorrope')
-        expect(platzom('Zarpar')).to.equal('Zarppe')
-    })
+test('Si la palabra inica con Z, se le añade "pe" al final', () => {
+    expect(platzom('Zorro')).toEqual('Zorrope')
+    expect(platzom('Zarpar')).toEqual('Zarppe')
+})
 
-    it('Si la palabra traducida tiene 10 o más letras, se debe partir en dos por la mitad y unir con un guión medio', () => {
-        expect(platzom('Abecedario')).to.equal('Abece-dario')
-        expect(platzom('Paranganicutirimicuaro')).to.equal('Paranganicu-tirimicuaro')
-    })
+test('Si la palabra traducida tiene 10 o más letras, se debe partir en dos por la mitad y unir con un guión medio', () => {
+    expect(platzom('Abecedario')).toEqual('Abece-dario')
+    expect(platzom('Paranganicutirimicuaro')).toEqual('Paranganicu-tirimicuaro')
+})
 
-    it('Por último, si la palabra original es un palíndromo, ninguna regla anterior cuenta y devuelve la misma palabra pero intercalando letras mayúsculas y  minúsculas.', () => {
-        expect(platzom('sometemos')).to.equal('SoMeTeMoS')
-    })
+test('Por último, si la palabra original es un palíndromo, ninguna regla anterior cuenta y devuelve la misma palabra pero intercalando letras mayúsculas y  minúsculas.', () => {
+    expect(platzom('sometemos')).toEqual('SoMeTeMoS')
 })

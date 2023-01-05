@@ -1,6 +1,6 @@
 'use strict'
 
-function platzom(str) {
+export default function platzom(str) {
     let translation = str
 
     /*
@@ -56,5 +56,3 @@ function platzom(str) {
 
     return translation
 }
-
-module.exports = platzom
